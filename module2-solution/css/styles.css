@@ -62,6 +62,12 @@ div > p {
   overflow-y: hidden;
   margin: 0 1%;
 }
+@-moz-document url-prefix() {
+  .col-lg-4 {
+        height: 366px;
+    }
+}
+
 
 }
 /****Medium ****/
